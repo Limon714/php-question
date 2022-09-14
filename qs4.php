@@ -9,7 +9,6 @@
 </head>
 
 <body>
-    <!-- Retrieve HTML Form Data With PHP -->
     <form action="" method="POST">
         <h1>Please, Enter Your Name </h1>
         <input type="text" name="name" id="">
