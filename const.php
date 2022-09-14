@@ -8,8 +8,9 @@ class Person{
             $this->name = $n;
             $this->age = $a;
     }
-    function show(){
-        echo $this->name . " is " . $this->age . "</br>";
+    function __destruct()
+    {
+            echo $this->name . " is " . $this->age . "<br>";
     }
 }
 $p = new Person();
@@ -18,7 +19,7 @@ $p3 = new Person("Limon", 27);
 // $p->name = "Rabul";
 // $p->age = 24;
 
-$p->show();
-$p2->show();
-$p3->show();
+// $p->show();
+// $p2->show();
+// $p3->show();
  ?>
